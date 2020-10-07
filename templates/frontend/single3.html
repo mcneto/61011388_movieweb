@@ -1,0 +1,270 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>MC MANIA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,900|Source+Serif+Pro&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href=" {% static 'fonts/icomoon/style.css' %} ">
+
+    <link rel="stylesheet" href=" {% static 'css/bootstrap.min.css' %} ">
+    <link rel="stylesheet" href=" {% static 'css/bootstrap-datepicker.css' %} ">
+    <link rel="stylesheet" href=" {% static 'css/jquery.fancybox.min.css' %} ">
+    <link rel="stylesheet" href=" {% static 'css/owl.carousel.min.css' %} ">
+    <link rel="stylesheet" href=" {% static 'css/owl.theme.default.min.css' %} ">
+    <link rel="stylesheet" href=" {% static 'fonts/flaticon/font/flaticon.css' %} ">
+    <link rel="stylesheet" href=" {% static 'css/aos.css' %} ">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href=" {% static 'css/style.css' %} ">
+
+    <link rel="shortcut icon" type="images/x-icon" href=" {% static 'images/movie.png' %} ">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3">
+              <div class="site-logo">
+                <a href=" {% url 'index' %} " class="font-weight-bold">MC MANIA</a>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+              
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-primary"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li><a href=" {% url 'index' %} " class="nav-link">Home</a></li>
+                  {% comment %} <li class="active"><a href=" {% static 'portfolio.html' %} " class="nav-link">Portfolio</a></li> {% endcomment %}
+                  {% comment %} <li><a href=" {% static 'about.html' %} " class="nav-link">About</a></li> {% endcomment %}
+                  {% comment %} <li><a href=" {% static 'services.html' %} " class="nav-link">Services</a></li> {% endcomment %}
+                  <li><a href=" {% url 'blog' %} " class="nav-link">Blog</a></li>
+                  <li><a href=" {% url 'contact' %} " class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
+
+    
+    <div class="site-section-cover">
+      <div class="container">
+        <div class="row align-items-center text-center justify-content-center">
+          <div class="col-lg-7">
+            <h1 class="text-white mb-4">Ad Astra</h1>
+            <p class="lead">Directed by James Gray &mdash; 2019</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid portfolio-wrap bg-light pt-0 site-section">
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <img src=" {% static 'images/p3.jpg' %} " alt="Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <p>Ad Astra (Latin for "To the Stars") is a 2019 American psychological science fiction drama film produced, co-written, and directed by James Gray. Starring Brad Pitt, Tommy Lee Jones, Ruth Negga, Liv Tyler, and Donald Sutherland, it follows an astronaut who ventures into space in search of his lost father, whose experiment threatens the solar system.</p>
+            <p>The project was announced in early 2016, with Gray saying he wanted to feature "the most realistic depiction of space travel that's been put in a movie". Pitt signed on to star in April 2017 and the rest of the cast joined later that year. Filming began around Los Angeles that August, lasting through October.</p>
+            <p>Ad Astra premiered at the Venice Film Festival on August 29, 2019, and was theatrically released in the United States on September 20, 2019 by 20th Century Fox. It received positive reviews from critics, with praise for Pitt's performance, Gray's direction, visual effects, and the cinematography. However, the film was a box office bomb, grossing $135 million worldwide against an $80–100 million budget. At the 92nd Academy Awards the film was nominated for Best Sound Mixing.</p>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <p>
+              <strong class="font-weight-bold text-black">Studio:</strong> <br> 20th Century Fox
+            </p>
+            <p>
+              <strong class="font-weight-bold text-black">Cast:</strong> <br> Brad Pitt
+            </p>
+            <p>
+              <strong class="font-weight-bold text-black">Director:</strong> <br> James Mangold
+            </p>
+            <p>
+              <strong class="font-weight-bold text-black">Year:</strong> <br> 2019 &mdash; Released
+            </p>
+            <p>
+              <strong class="font-weight-bold text-black">Genre:</strong> <br>  Adventure, Drama, Mystery 
+            </p>
+
+            <p>
+              <strong class="font-weight-bold text-black">Trailer:</strong> <br> <a href="https://youtu.be/P6AaSMfXHbA" target="_blank" >https://youtu.be/P6AaSMfXHbA</a>
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row text-center mt-5">
+          <div class="col-md-4"><a href="{% url 'single2' %}" class="btn btn-block border p-3">Previous</a></div>
+          <div class="col-md-4"><a href="{% url 'blog' %}" class="btn btn-block border p-3">More Projects</a></div>
+          <div class="col-md-4"><a href="{% url 'single4' %}" class="btn btn-block border p-3">Next</a></div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="site-section bg-white">
+      
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col">
+            <h2 class="text-primary font-weight-bold">Available</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a target="_blank" href="https://itunes.apple.com/us/movie/ad-astra/id1478332956"><img src=" {% static 'images/l1.png' %} " alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3">
+            <a target="_blank" href="https://play.google.com/store/movies/details/Ad_Astra?id=tEtREbqoFvQ.P"><img src=" {% static 'images/l2.png' %} " alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3">
+            <a target="_blank" href="https://www.microsoft.com/en-us/p/ad-astra/8d6kgwxn0jw8?activetab=pivot%3aoverviewtab"><img src=" {% static 'images/l3.png' %} " alt="Image" class="img-fluid">
+          </div>
+          <div class="col-md-3">
+            <a target="_blank" href="https://www.primevideo.com/detail/AD-ASTRA/0M2DML009U2YIY3O4WHWMNRNU1/ref=atv_nb_lcl_th_TH?language=th_TH&ie=UTF8"><img src=" {% static 'images/l4.png' %} " alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="footer site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="site-logo-footer">
+              <a href=" {% url 'index' %} ">MC MANIA</a>
+            </div> 
+          </div>
+          <div class="col-md-8 ml-auto">
+            <div class="row">
+              <div class="col-md-4">
+                <ul class="list-unstyled links">
+                  <li><a href="{% url 'index' %}">Home</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-unstyled links">
+                  
+                  <li><a href="{% url 'blog' %}">Blog</a></li>
+                  
+                </ul>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <ul class="list-unstyled links">
+                  <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                  <li>6101138@kmitl.ac.th</a></li>
+                  <li>+66 624265522</a></li>
+                  {% comment %} <li><a href="#">Support</a></li> {% endcomment %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <a target="_blank" href="https://www.facebook.com/imdb"><span class="m-2 icon-facebook"></span></a>
+            <a target="_blank" href="https://twitter.com/imdb"><span class="m-2 icon-twitter"></span></a>
+            {% comment %} <a href="#"><span class="m-2 icon-linkedin"></span></a> {% endcomment %}
+            <a target="_blank" href="https://www.instagram.com/imdb/"><span class="m-2 icon-instagram"></span></a>
+            {% comment %} <a href="#"><span class="m-2 icon-skype"></span></a> {% endcomment %}
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            {% comment %} Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a> {% endcomment %}
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    </div>
+
+    <script src=" {% static 'js/jquery-3.3.1.min.js' %} "></script>
+    <script src=" {% static 'js/jquery-migrate-3.0.0.js' %} "></script>
+    <script src=" {% static 'js/popper.min.js' %} "></script>
+    <script src=" {% static 'js/bootstrap.min.js' %} "></script>
+    <script src=" {% static 'js/owl.carousel.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.sticky.js' %} "></script>
+    <script src=" {% static 'js/jquery.waypoints.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.animateNumber.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.fancybox.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.stellar.min.js' %} "></script>
+    <script src=" {% static 'js/jquery.easing.1.3.js' %} "></script>
+    <script src=" {% static 'js/bootstrap-datepicker.min.js' %} "></script>
+    <script src=" {% static 'js/isotope.pkgd.min.js' %} "></script>
+    <script src=" {% static 'js/aos.js' %} "></script>
+  
+
+    <script src=" {% static 'js/typed.js' %} "></script>
+            <script>
+            var typed = new Typed('.typed-words', {
+            strings: ["Business"," Startups"," Organization", " Company"],
+            typeSpeed: 80,
+            backSpeed: 80,
+            backDelay: 4000,
+            startDelay: 1000,
+            loop: true,
+            showCursor: true
+            });
+            </script>
+
+
+    <script src=" {% static 'js/main.js' %} "></script>
+
+  </body>
+
+</html>
+
